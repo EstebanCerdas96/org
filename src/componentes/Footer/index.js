@@ -1,17 +1,16 @@
 import "./Footer.css"
-import footer from "./public/img/footer.png"
 
 const Footer = () => {
-    return <footer className="footer" style={{backgroundImage: `url(${footer})`}}>
+    return <footer className="footer" style={{backgroundImage: "url(/img/footer.png)"}}>
         <div className="redes">
             <a href="https://www.facebook.com/esteban.cerdasperez/">
-                <img src="/img/facebook.png" alt="Facebook"/>
+                <img src="./Img/facebook.png" alt="Facebook"/>
             </a>
             <a href="https://www.instagram.com/esteban_c96/?hl=es-la">
-                <img src="/img/instagram.png" alt="Instagram"/>
+                <img src="./Img/instagram.png" alt="Instagram"/>
             </a>
         </div>
-        <img src="/img/Logo.png" alt="org" />
+        <img src="./Img/Logo.png" alt="org" />
         <strong>Desarrollado por Esteban Cerdas</strong>
     </footer>
 }
